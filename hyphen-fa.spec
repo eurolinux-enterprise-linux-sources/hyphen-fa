@@ -2,7 +2,7 @@ Name: hyphen-fa
 Summary: Farsi hyphenation rules
 %define upstreamid 20081119
 Version: 0.%{upstreamid}
-Release: 6%{?dist}
+Release: 7%{?dist}
 Source: http://www.ctan.org/get/language/hyphenation/fahyph.zip
 Group: Applications/Text
 URL: http://www.ctan.org/tex-archive/help/Catalogue/entries/fahyph.html
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20081119-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20081119-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
